@@ -6,109 +6,84 @@
     <title>이윤진 포트폴리오 페이지</title>
 </head>
 <body>
-    <h1>이윤진 HTML 포트폴리오</h1>
+    <div id="header">
+        <h1>🩰이윤진의 미니 홈페이지</h1>
+        
+        <img src="https://pbs.twimg.com/media/DdmZUbxV0AAirnR.jpg" alt="프로필 이미지" width="150" 
+          height="150" 
+          style="border-radius: 50%; object-fit: cover;">
+        
+          <p>안녕하세요 저는 <strong>이윤진</strong>입니다~ <br>
+         <em>코딩</em>을 배우고 있어요!😛</p>
+    </div>
 
-    <img src="https://pbs.twimg.com/media/DdmZUbxV0AAirnR.jpg" alt="프로필 이미지" width="150" 
-      height="150" 
-      style="border-radius: 50%; object-fit: cover;">
+        <nav>
+            <a href="animal.html" target="_blank">🐾동물소개</a>
+            <a href="book.html" target="_blank">📚독서목록</a>
+            <a href="movie.html" target="_blank">🎬영화 리뷰 페이지</a>
+            <a href="recipe.html" target="_blank">👩🏻‍🍳나만의 레시피</a>
+        </nav>
 
-      <p>안녕하세요 저는 <strong>이윤진</strong>입니다~ <br>
-     <em>코딩</em>을 배우고 있어요!😛</p>
-     <hr>
+<div id="main">
+    <section class="자기소개">
+             <h2>👋 자기소개</h2>
+            <p>대전에 살고 있고 ai 바이브코딩 수업을 듣고 있어요!</p>
+        </section>
+    
+        <hr>
+    
+        <section class="작품목록">
+             <h2>📁나의 작품 목록</h2>
+             <ul>
+                <a href="animal.html" target="_blank">🐾동물 소개 페이지</a>
+                <a href="book.html" target="_blank">📚나의 독서 목록</a>
+                <a href="movie.html" target="_blank">🎬영화 리뷰 페이지</a>
+                <a href="recipe.html" target="_blank">👩🏻‍🍳나만의 레시피</a>
+             </ul>
+        </section>
+    
+         <hr>
+    
+         <h2>💬방문자 메모</h2>
+         <form action="" method="get">
+            <fieldset>
+                <legend>이름</legend>
+                <input type="text" placeholder="이름을 입력하세요">
+            </fieldset>
+    
+         <p>방문 경로</p>
+            <select name="" id="">
+                <option value="">직접 방문</option>
+                <option value="">추천</option>
+                <option value="">검색</option>
+            </select>
+    
+      <br>
+      <br>
+            <fieldset>
+                <legend>메모</legend>
+            </fieldset>
+            <textarea name="" id="" cols="40" rows="3" placeholder="방문 소감을 남겨주세요😜"></textarea>
+      <br>
+            
+            <input type="button" value="메모 남기기✉️">
+     </form>
+</div>
 
-     <h2>📁작품 목록</h2>
 
-     <b>
-        <caption>HTML 실습 작품 모음</caption>
-     </b>
+<footer id="footer">
+    <hr>
+    <p>이윤진 - [AI Worker]취창업을 위한 AI 바이브코딩 웹비지니스 구축 및 마케팅 실전 과정</p>
+        <div class="copyright">
+            <p>&copy; 2026 Yoonjin. All rights reserved.</p>
+        </div>
+    
+ </footer>
 
-     <table border="1">
-        <thead>
-            <tr>
-                <th colspan="4">나의 HTML 작품 포트폴리오</th>
-            </tr>
 
-            <tr>
-                <th>과정</th>
-                <th>작품명</th>
-                <th>설명</th>
-                <th>링크</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td rowspan="4">기초<br>과정</td>
-                <td>🐾동물소개</td>
-                <td>좋아하는 동물 소개 페이지</td>
-                <td><a href="https://yoonjin070201.github.io/html.table2/animal.html" target="_blank">보기</a></td>
-            </tr>
-
-            <tr>
-                <td>📚독서목록</td>
-                <td>나의 책 목록 페이지</td>
-                <td><a href="book.html" target="_blank">보기</a></td>
-            </tr>
-
-            <tr>
-                <td>🎬영화 리뷰</td>
-                <td>영화 감상 리뷰 페이지</td>
-                <td><a href="movie.html" target="_blank">보기</a></td>
-            </tr>
-
-            <tr>
-                <td>👩🏻‍🍳레시피</td>
-                <td>나만의 레시피 페이지</td>
-                <td><a href="recipe.html" target="_blank">보기</a></td>
-            </tr>
-
-            <tr>
-                <td rowspan="2">심화<br>과정</td>
-                <td><mark>📅 시간표</mark></td>
-                <td>rowspan/colspan 시간표</td>
-                <td><a href="timetable.html" target="_blank">보기</a></td>
-            </tr>
-
-            <tr>
-                <td><mark>🎬️박스오피스</mark></td>
-                <td>영화 순위표 + foot</td>
-                <td><a href="boxoffice.html" target="_blank">보기</a></td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan="3">총 작품 수</td>
-                <td>6개</td>
-            </tr>
-        </tfoot>
-     </table>
-
-     <hr>
-
-     <h2>🛠️ 배운 태그</h2>
-     <ul>
-        <li>텍스트 : h1~h6, p, strong, em, mark ...</li>
-        <li>목록 : ul, ol, li</li>
-        <li>링크/이미지 : a, img</li>
-        <li><mark>표 : table, thead, tbody, tfoot, tr, th, td, colspan, rowspan</mark></li>
-        <li>구조 : div, span</li>
-     </ul>
-
-     <hr>
-
-     <h2>🔗 유용한 링크</h2>
-     <ol>
-        <li><a href="https://developer.mozilla.org/ko/" target="_blank">MDN Web Docs - HTML 공식 문서</a></li>
-        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools - HTML 튜토리얼</a></li>
-        <li><a href="https://caniuse.com/">Can I Use - 브라우저 호환성 확인</a></li>
-     </ol>
-
-     <hr>
-
-     <p>이윤진 - [AI Worker]취창업을 위한 AI 바이브코딩 웹비지니스 구축 및 마케팅 실전 과정</p>
-     <small>ⓒ 이윤진.  All rights reserved</small>
-
+  <style>
+        body {padding-bottom: 500px;}
+    </style>
 </body>
 </html>
 
