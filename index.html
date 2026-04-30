@@ -50,13 +50,15 @@
     
          <h2>💬방문자 메모</h2>
          <form action="" method="get">
-            <fieldset>
-                <legend>이름</legend>
-                <input type="text" placeholder="이름을 입력하세요">
-            </fieldset>
+           <label for="name">이름</label>
+           <br>
+           <input type="text" id="name" placeholder="이름을 입력하세요">
+            <br>
+            <br>
     
-         <p>방문 경로</p>
-            <select name="" id="">
+         <label for="visit">방문 경로</label>
+         <br>
+            <select name="visit" id="visit">
                 <option value="">직접 방문</option>
                 <option value="">추천</option>
                 <option value="">검색</option>
@@ -64,10 +66,9 @@
     
       <br>
       <br>
-            <fieldset>
-                <legend>메모</legend>
-            </fieldset>
-            <textarea name="" id="" cols="40" rows="3" placeholder="방문 소감을 남겨주세요😜"></textarea>
+           <label for="memo">메모 남기기</label>
+           <br>
+            <textarea name="memo" id="memo" cols="40" rows="5" placeholder="방문 소감을 남겨주세요😜"></textarea>
       <br>
             
             <input type="button" value="메모 남기기✉️">
